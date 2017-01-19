@@ -1,5 +1,3 @@
-import java.util.concurrent.locks.Condition;
-
 public class Arrays {
 
 	public static void main(String[] args) {
