@@ -12,7 +12,7 @@ public class FileRead {
 	
 	public void start() {
 		
-		try {
+		try { 
 			FileReader fr = new FileReader(LOG_FILE_PATH);
 			BufferedReader br = new BufferedReader(fr);
 			
