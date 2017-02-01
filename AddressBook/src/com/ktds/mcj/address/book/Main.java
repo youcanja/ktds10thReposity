@@ -47,7 +47,7 @@ public class Main {
 				System.out.println("주소록의 번호를 입력하세요.");
 				addressNumber = input.nextInt();
 				addressVO = addressBiz.findOneAddress(addressNumber);
-				System.out.printf("이름 : %s, 전화번호 : %s, 주소 : %s\n", 
+				System.out.printf("이름 : %s, 전화번호 : %s, n주소 : %s\n", 
 						addressVO.getName(), addressVO.getPhoneNumber(), addressVO.getAddress());
 			}
 			else if ( chooseMenu == 3 ) {
